@@ -10,7 +10,7 @@ const Current = ({ current, location }) => {
         <>
             <div className="container">
                 <div className=' bg-white rounded p-1 mt-5 fw-medium text-center'>
-                    current Weather of :  {location.name}, {location.region},   , {location.country}
+                    Current Weather of :  {location.name}, {location.region},   , {location.country}
                 </div>
 
                 <div className="row">

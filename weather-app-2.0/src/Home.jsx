@@ -99,15 +99,15 @@ const Home = () => {
         <>
             <div className="container mt-2">
                 <div className="container mt-2">
-                    <div className="row justify-content-evenly align-items-center gap-1">
+                    <div className="row justify-content-evenly align-items-center ">
                         {/* Logo and Title */}
-                        <div className="col-2 col-md-2 d-flex align-items-center">
-                            <img src={logo} alt="logo" style={{ width: '40px', height: '40px' }} />
-                            <h4 className="mx-3 mb-0">Weather</h4>
+                        <div className="col-2 col-md-2 mt-3 d-flex align-items-center">
+                            {/* <img src={logo} alt="logo" style={{ width: '40px', height: '40px' }} /> */}
+                            {/* <h4 className="mx-4 mb-1" style={{ fontFamily: 'system-ui' }}></h4> */}
                         </div>
 
                         {/* Search Input with Clear Button */}
-                        <div className="col-12 col-md-7  position-relative mt-2 mt-md-0">
+                        <div className="col-6 col-md-6  position-relative mt-2 mt-md-0">
                             <input
                                 type="text"
                                 className="form-control"

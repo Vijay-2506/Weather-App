@@ -11,15 +11,16 @@ function App() {
   return (
     <>
 
-<section>
-
+      <section className='bg-dark'>
         <img src={Backgroundimg} alt="Background" className="background-img" />
-      <div className="background">
-        <div className="overlay">
-          <Home />
+        <div className="background">
+          <div className="overlay">
+            <h1 className="app-header text-center" style={{fontFamily:'fantasy'}}>Weather App</h1>
+            <Home />
+          </div>
         </div>
-      </div>
-</section>
+      </section>
+
 
     </>
   )
