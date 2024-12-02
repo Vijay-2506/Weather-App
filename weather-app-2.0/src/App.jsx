@@ -17,6 +17,7 @@ function App() {
           <div className="overlay">
             <h1 className="app-header text-center" style={{fontFamily:'fantasy'}}>Weather App</h1>
             <Home />
+            
           </div>
         </div>
       </section>
